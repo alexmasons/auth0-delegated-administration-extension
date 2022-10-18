@@ -36,7 +36,7 @@ class LoginContainer extends Component {
         <div className="row">
           <Confirm
             dialogClassName="login-error"
-            confirmMessage={languageDictionary.loginErrorButtonText || "Login"}
+            confirmMessage={"Login To MASA BackOffice"}
             loading={false}
             title={languageDictionary.loginErrorTitle || "Login Error"}
             show={this.props.auth.error}
